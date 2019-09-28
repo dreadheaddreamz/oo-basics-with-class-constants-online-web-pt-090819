@@ -7,7 +7,7 @@ class Shoe
   end
   
   
-  UNIQUE = []
+  BRANDS = []
   
   
   def cobble
@@ -15,9 +15,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def unique=(unique)
-    @unique = unique
-    UNIQUE << unique
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand
   end
 
 end
